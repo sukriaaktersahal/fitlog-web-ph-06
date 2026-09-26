@@ -11,7 +11,7 @@ interface WorkoutCardProps {
 // workout function component
 export default function WorkoutCard({ workout }: WorkoutCardProps) {
     return (
-        <Link href={`/workouts/${workout.id}`} className="group block overflow-hidden rounded-xl border border-white/10 bg-[#111111] transition hover:-translate-y-1 hover:border-[#ccff00]/50">
+        <Link href={`/workout/${workout.id}`} className="group block overflow-hidden rounded-xl border border-white/10 bg-[#111111] transition hover:-translate-y-1 hover:border-[#ccff00]/50">
             {/* image */}
             <div className="relative aspect-square overflow-hidden bg-[#1a1a1a]">
                 <Image src={workout.image} alt={workout.name} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover transition duration-500 group-hover:scale-110" unoptimized />
