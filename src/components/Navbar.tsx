@@ -1,6 +1,7 @@
 // use client for usePathname..
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { usePlan } from "@/context/PlanContext";
 
@@ -14,7 +15,7 @@ export default function Navbar() {
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
                 {/* left logo */}
                 <Link href="/" className="flex items-center gap-2">
-                    <span className="text-2xl text-[#ccff00]">⚡</span>
+                    <Image src="/logo.png" alt="Fitlog Logo" width={32} height={32} className="h-7 w-7 object-contain" priority/>
                     <span className="font-display text-xl font-bold tracking-wide">FITLOG</span>
                 </Link>
 
