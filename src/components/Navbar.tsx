@@ -12,9 +12,9 @@ export default function Navbar() {
     return (
         <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a] backdrop-blur">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
-                {left logo}
+                {/* left logo */}
                 <Link href="/" className="flex items-center gap-2">
-                    <span className="text-2xl text-[#ccff00]">FitLog</span>
+                    <span className="text-2xl text-[#ccff00]">⚡</span>
                     <span className="font-display text-xl font-bold tracking-wide">FITLOG</span>
                 </Link>
 
