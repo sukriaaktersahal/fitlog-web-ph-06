@@ -39,6 +39,9 @@ FitLog is a workout planning web app where you can:
 **Custom Dark Theme** - Figma-matched design with lime accent.
 **Custom 404 Page** - Friendly error page for invalid routes.
 
+# Live Link
+- **(https://fitlog-web-ph-06.vercel.app)**
+
 # Getting Started
 
 #Pre-requisites
