@@ -54,7 +54,7 @@ export default function LibrarySection() {
 
             {/* workouts grid */}
             {!loading && !error &&(
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{workouts.map((workout) =>(
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">{workouts.map((workout) =>(
                     <WorkoutCard key={workout.id} workout={workout} />
                 ))}
                 </div>
