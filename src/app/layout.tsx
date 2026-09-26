@@ -24,7 +24,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-      <html lang="en">
+      <html lang="en" data-scroll-behavior="smooth">
         <body className={`${oswald.variable} ${inter.variable} font-inter bg-[#0a0a0a] text-white antialiased`}>
           <PlanProvider>
             <Navbar />
