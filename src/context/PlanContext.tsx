@@ -31,6 +31,7 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
     const [isHydrated, setIsHydrated] = useState(false);
 
     // useEffect to load plan and saved from localStorage
+    /* eslint-disable react-hooks/set-state-in-effect */
     useEffect(() => {
         const storedPlan = localStorage.getItem("fitlog-plan");
         const storedSaved = localStorage.getItem("fitlog-saved");
@@ -42,6 +43,7 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
         }
         setIsHydrated(true);
     }, []);
+    /* eslint-enable react-hooks/set-state-in-effect */
 
     // useEffect to save plan and saved to localStorage
     useEffect(() => {
